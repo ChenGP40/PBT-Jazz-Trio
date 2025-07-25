@@ -20,13 +20,13 @@
     <div style="background-color: #f9ac04; clip-path: polygon(2.5% 0, 100% 0%, 100% 100%, 0% 100%);"></div>
 </div>
 <div id="navBtm">
-    <div class="nameLogo"><a href="index.html"><img class="img" src="logo_word.png"></a></div>
+    <div class="nameLogo"><a href="index.html"><img class="img" style="filter: brightness(125%);" src="logo_word.png"></a></div>
     <div class="navBlocks">
         <p id="hamburger" onclick="mobileTrigger()"><img src="images/hamburger.png" class="img"></p>
-        <div><a href="contact.html">Contact Us!</a></div>
-        <div><a href="repertoire.html">Repertoire</a></div>
-        <div><a href="events.html">Event Gallery</a></div>
-        <div><a href="index#about.html">About Us</a></div>
+        <div><a href="#contact">Contact Us!</a></div>
+        <!-- <div><a href="repertoire.html">Repertoire</a></div>
+        <div><a href="events.html">Event Gallery</a></div> -->
+        <div><a href="#aboutUs">About Us</a></div>
     </div>
 </div>
 </nav>
@@ -49,15 +49,16 @@
     <div id="landingText" class="landingText">
         <img class="landingLogo" style="filter: brightness(150%); align-self: center;" src="logo_v1.png">
         <div class="landingBtns">
-            <a class="landingBtn" href="#explore">About the Trio</a>
-            <a class="landingBtn" href="#explore">Book Now!</a>
-            <a class="landingBtn" href="#explore">Event Gallery</a>
+            <a class="landingBtn" href="#aboutUs">Welcome!</a>
+            <!-- <a class="landingBtn" href="#aboutUs">About the Trio</a> -->
+            <!-- <a class="landingBtn" href="#contact">Book Now!</a> -->
+            <!-- <a class="landingBtn" href="#gallery">Event Gallery</a> -->
         </div>
     </div>
 </div>
 
 <main>
-<section id="explore"></section>
+<section id="aboutUs"></section>
 <div class="landingBtm">
     <div style="background-color: #733381; box-shadow: 1em 0 0 #733381;"></div>
     <div style="background-color: #ad426c; box-shadow: 1em 0 0 #ad426c; clip-path: polygon(2.5% 0, 110% 0%, 110% 100%, 0% 100%);"></div>
@@ -109,16 +110,32 @@
             He is also a member of the Johnstown Civic and Reed bands and plans to further his reach into music performance at Penn State University this fall.
         </p>
     </div>
-    
+</div>
+
+<section id="contact"></section>
+<div class="intro">
+    <div id="about" class="contentTitle">Contact Us!</div>
+
+    <div style="grid-column: 1 / 3;">
+        <p style="text-align:center;">
+            Are you interested in hiring us for any of your future events?
+            Reach out to us at <a href="mailto:thepbtjazztrio@gmail.com" style="color: black; font-weight:bold;">thepbtjazztrio@gmail.com</a> or text/call <span style="font-weight:bold">(814) 421 4488</span>.
+        </p>
+    </div>
 </div>
 
 
-<script src="gsap.min.js"></script>
-<script src="trio.js"></script>
 </body>
 
-<i>Site developed and maintained by Boyi Chen.</i>
+<footer>
 
+
+</footer>
+<!-- <i>Site developed and maintained by Boyi Chen.</i> -->
+
+
+<!-- <script src="gsap.min.js"></script> -->
+<!-- <script src="trio.js"></script> -->
 </html>
 
 
