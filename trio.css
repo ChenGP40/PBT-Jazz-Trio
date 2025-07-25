@@ -244,7 +244,7 @@ p {
 
 @media screen and (max-width: 768px) {
 p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5em;
 }
 
@@ -255,7 +255,7 @@ p {
     max-width: 250px;
 }
 .landingBtn {
-    width: 75px;
+    width: 80px;
     padding: 1em 1em;
     font-size: 100%;
 }
@@ -283,6 +283,6 @@ p {
     padding-bottom: 1em;
 }
 .nameLogo {
-    max-width: 50px;
+    max-width: 70px;
 }
 }
