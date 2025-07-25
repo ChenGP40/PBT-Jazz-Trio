@@ -217,6 +217,9 @@ p {
     padding-right: 1em;
     margin-bottom: 2em; 
 }
+.aboutMobileImg {
+    display: none;
+}
 .aboutDesc {
     grid-column: 2 / 5;
     margin-bottom: 1em;
@@ -237,4 +240,46 @@ p {
     font-size: 110%;
     font-weight: bold;
     padding-bottom: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.imageContainer {
+    grid-template-columns: 1fr 1fr;
+}
+.landingLogo {
+    max-width: 250px;
+}
+.landingBtn {
+    width: 75px;
+    padding: 1em 1em;
+    font-size: 100%;
+}
+
+.intro {
+    margin: 3em 0%;
+    font-size: 90%;
+}
+.about{
+    margin: 2em 0%;
+    display: block;
+}
+.aboutImg {
+    display: none;
+}
+.aboutMobileImg {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+}
+.aboutDesc {
+    padding-left: 0em;
+}
+.aboutDesc p {
+    padding-bottom: 1em;
+}
 }
