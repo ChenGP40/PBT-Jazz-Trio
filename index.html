@@ -25,7 +25,7 @@
         <p id="hamburger" onclick="mobileTrigger()"><img src="images/hamburger.png" class="img"></p>
         <div><a href="contact.html">Contact Us!</a></div>
         <div><a href="repertoire.html">Repertoire</a></div>
-        <div><a href="events.html">Past Events</a></div>
+        <div><a href="events.html">Event Gallery</a></div>
         <div><a href="index#about.html">About Us</a></div>
     </div>
 </div>
@@ -34,16 +34,25 @@
 
 <div class="landing">
     <div class="imageContainer">
-        <div class="homeImg"><img src="images/odiseo-castrejon-1SPu0KT-Ejg-unsplash.jpg" class="img"></div>
-        <div class="homeImg"><img src="images/sangeeth-n-soNz9KMcCD8-unsplash.jpg" class="img"></div>
-        <div class="homeImg"><img src="images/platting-4282016_1920.jpg" class="img"></div>
-        <div class="homeImg"><img src="images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" class="img" style="left: 50px"></div>
+        <div id="landing1" class="homeImg"><img src="images/Java Night 3.JPEG" class="img"></div>
+        <div id="landing2" class="homeImg"><img src="images/Java Night 1.jpg" class="img"></div>
+        <div id="landing3" class="homeImg"><img src="images/PMEA.jpg" class="img"></div>
+        <div id="landing4" class="homeImg"><img src="images/Outside.jpg" class="img"></div>
+        <div id="landing5" class="homeImg"><img src="images/Pit Men.jpg" class="img"></div>
+        <div id="landing6" class="homeImg"><img src="images/Java Night 2.jpg" class="img"></div>
+        <div id="landing7" class="homeImg"><img src="images/All Star.jpg" class="img"></div>
+        <div id="landing8" class="homeImg"><img src="images/Java Night Performance.jpg" class="img"></div>
+
     </div>
-    <div class="landingOverlay">
+    <div id="landingOverlay" class="landingOverlay">
     </div>
-    <div class="landingText">
-        <div class="landingTitle"><img class="img" style="filter: brightness(150%)" src="logo_v1.png"></div>
-        <a class="landingBtn" href="#explore">Explore</a>
+    <div id="landingText" class="landingText">
+        <img class="landingLogo" style="filter: brightness(150%); align-self: center;" src="logo_v1.png">
+        <div class="landingBtns">
+            <a class="landingBtn" href="#explore">About the Trio</a>
+            <a class="landingBtn" href="#explore">Book Now!</a>
+            <a class="landingBtn" href="#explore">Event Gallery</a>
+        </div>
     </div>
 </div>
 
@@ -57,43 +66,55 @@
     <div style="background-color: #f9ac04; clip-path: polygon(2.5% 0, 100% 0%, 100% 100%, 0% 100%);"></div>
 </div>
 
-<div class="content">
-    <div id="about">
-        <h1>Introducing... the PB&T Jazz Trio</h1>
-        <img id="groupPhoto">
+<div class="intro">
+    <div id="about" class="contentTitle">Introducing... the PB&T Jazz Trio</div>
+
+    <div style="grid-column: 1 / 3;">
         <p>
             The PB&T Jazz Trio is a newly formed jazz ensemble composed of recent graduates from Richland High School. 
             The trio specializes in jazz performance and improvisation, but they also enjoy bringing their talents to rock shows and musical theater. 
             Though each member is heading off to college this fall, they’ve reunited to share their passion for jazz with the Cambria community, and they’re excited to return in the future to continue performing and giving back to the place that inspired their musical journey.
         </p>
-        <div>
-            <h2 class="aboutName">Boyi Chen</h2>
-            <p class="aboutDesc">
-                Boyi has been playing the piano for thirteen years, with a passion for classical, rock, and jazz styles. 
-                He served as the keyboard-conductor in several of Richland High School’s rock orchestra and musical productions, where he also enjoyed playing the violin. 
-                Boyi plans to attend Johns Hopkins University to pursue a career in medicine while also continuing to perform with jazz ensembles.
-            </p>
-        </div>
-        <div>
-            <h2 class="aboutName">Patrick Litzinger</h2>
-            <p class="aboutDesc">
-                Patrick plays bass and has been/is involved with many high school and community ensembles. 
-                His favorite group he plays in is the PB&T trio because jazz is his favorite type of music. 
-                He is going to continue his education and his involvement with music at Messiah University this fall.
-            </p>
-        </div>
-        <div>
-            <h2 class="aboutName">Trevor Rzasa</h2>
-            <p class="aboutDesc">
-                Trevor has been playing drums and other percussion instruments for almost ten years and has played in multiple of Richland High School’s music ensembles in the band, orchestra, and theater programs. 
-                He is also a member of the Johnstown Civic and Reed bands and plans to further his reach into music performance at Penn State University this fall.
-            </p>
-        </div>
-        
+    </div>
+    <!-- <div><img id="groupPhoto"></div> -->
 </div>
+
+<div class="about">
+    <div class="descTitle">Our Members</div>
+    <div class="aboutImg"><img src="images/Boyi Solo.JPEG" class="img"></div>
+    <div class="aboutDesc">
+        <h2 class="aboutName" style="border-bottom: solid 3px #733381;">Boyi Chen - Piano</h2>
+        <p>
+            Boyi has been playing the piano for thirteen years, with a passion for classical, rock, and jazz styles. 
+            He served as the keyboard-conductor in several of Richland High School’s rock orchestra and musical productions, where he also enjoyed playing the violin. 
+            Boyi plans to attend Johns Hopkins University to pursue a career in medicine while also continuing to perform with jazz ensembles.
+        </p>
+    </div>
+    
+    <div class="aboutImg"><img src="images/Patrick Solo Color.JPEG" class="img"></div>
+    <div class="aboutDesc">
+        <h2 class="aboutName" style="border-bottom: solid 3px #c66548;">Patrick Litzinger - Bass</h2>
+        <p>
+            Patrick plays bass and has been/is involved with many high school and community ensembles. 
+            His favorite group he plays in is the PB&T trio because jazz is his favorite type of music. 
+            He is going to continue his education and his involvement with music at Messiah University this fall.
+        </p>
+    </div>
+
+    <div class="aboutImg"><img src="images/All Star.jpg" class="img"></div>
+    <div class="aboutDesc">
+        <h2 class="aboutName" style="border-bottom: solid 3px #f9ac04;">Trevor Rzasa - Drumset</h2>
+        <p>
+            Trevor has been playing drums and other percussion instruments for almost ten years and has played in multiple of Richland High School’s music ensembles in the band, orchestra, and theater programs. 
+            He is also a member of the Johnstown Civic and Reed bands and plans to further his reach into music performance at Penn State University this fall.
+        </p>
+    </div>
+    
 </div>
 
 
+<script src="gsap.min.js"></script>
+<script src="trio.js"></script>
 </body>
 
 <i>Site developed and maintained by Boyi Chen.</i>
